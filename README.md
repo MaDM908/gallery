@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+Далее приведен стандартный readme react app, создал простой дизайн галереи
+с тем функционналом, который был представлен в ТЗ. 
+Для реализации формы использовал redux-form, для плейсхолдера во время загрузки
+thunkMiddleware ( асинхронные запросы на время загрузки, в данный момент условно ),
+для хранения картинок в виде массива объектов использован redux store, route-dom для
+перехода из одной компоненты в другую. 
+
+
+#Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
