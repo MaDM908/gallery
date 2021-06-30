@@ -1,0 +1,44 @@
+.gallery {
+    max-width: 860px;
+    min-width: 320px;
+    width: 80%;
+
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    p {
+        margin: 20px 0;
+    }
+    .card {
+        border: 2px solid greenyellow;
+        height: 100%;
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        &:hover {
+            background-color: #6699FF;
+            color: wheat;
+        }
+    }
+    input {
+        margin: 20px 0;
+        width: 100%;
+        color: gray;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery {
+
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,22 @@
+.gallery {
+  max-width: 860px;
+  min-width: 320px;
+  width: 80%;
+  margin: 50px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.gallery .card {
+  border: 2px solid greenyellow;
+  height: 100%;
+  width: 100%;
+}
+
+.gallery button {
+  width: 100%;
+}
+/*# sourceMappingURL=Gallery.css.map */

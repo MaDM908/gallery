@@ -1,0 +1,26 @@
+.nav {
+  background-color: #6699FF;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0.2fr 0.2fr;
+      grid-template-columns: 1fr 0.2fr 0.2fr;
+  height: 100px;
+}
+
+.nav a {
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav img {
+  width: 200px;
+  height: 100px;
+}
+/*# sourceMappingURL=Navbar.css.map */
